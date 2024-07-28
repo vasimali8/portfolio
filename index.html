@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="public/img/4288584andbusinessfinancepersonalportfolioprofileresume-115772_115741.png" />
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="public\css\styles.css" id="css" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .navbar .icon-big-bold {
+        font-size: 40px; /* Increase the font size */
+        font-weight: bold; /* Make it bold */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Optional: Add a text shadow */
+      }
+    </style>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <header class="header" >
+   
+      <nav class="navbar" id="myLinks" style="transform: translateY(-5px)">
+        <a href="#Home" style="--i: 1" class="active">Home</a>
+        <a href="#About" style="--i: 2">About</a>
+        <a href="#Skills" style="--i: 3">Skills</a>
+        <a href="#Projects" style="--i: 4">Projects</a>
+        <a href="#Contact" style="--i: 5">Contact</a>
+        <!-- <button id="day-modes" style="border: none ; background-color: transparent ; " onclick="switchTheme()" > <img src="public\images\icons8-dark-mode-64 (1).png" alt="" height="40px" ></button>  -->
+      
+        <button id="day-modes" style="border: none; background-color: transparent; padding-left :10px;" onclick="switchTheme()">
+          <!-- <img src="public/images/icons8-dark-mode-64 (1).png" alt="" height="40px" style="vertical-align: middle;"> -->
+          <i id="day-modes" class='bx bx-moon icon-big-bold' " style="color:var(--primary-color)"></i>
+
+      </button>     
+        
+        <!-- <label class="swap swap-rotate" onclick="switchTheme()"> -->
+  
+          <!-- this hidden checkbox controls the state -->
+          <!-- <input type="checkbox" class="theme-controller" value="synthwave"  style="height: 20px;"/> -->
+          
+          <!-- sun icon -->
+          <!-- <svg class="swap-off fill-current w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;"><path d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"/></svg> -->
+          
+          <!-- moon icon -->
+          <!-- <svg class="swap-on fill-current w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="height: 20px;"><path d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"/></svg> -->
+          
+        <!-- </label> -->
+      </nav>
+ 
+  
+    </header>
+   
+
+
+    <section class="home" id="Home">
+      <div class="home-content">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <h3>Hello, It's Me</h3>
+        <h1>Saiyed Vasimali</h1>
+        <h4 style="--i: 6">
+          I'm a Engineering student who is<br />
+          passionate in <span class="text"></span>
+        </h4>
+
+        <div class="img">
+          <!-- <img src="./img/cropedpic.png" class="responsive"> -->
+          <img src="public\images\header.png" id="img3" alt="">
+        </div>
+
+        <div class="home-sci">
+          <a
+            href="https://www.linkedin.com/in/midhun-v-s"
+            style="--i: 7"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+
+          <a
+            href="https://github.com/vsmidhun21"
+            style="--i: 10"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+        <a
+          href=""
+          style="--i: 11"
+          class="btn-box"
+          target="_blank"
+          >Download Resume</a
+        >
+      </div>
+    </section>
+
+    <section>
+      <div class="about" id="About">
+        <!-- <div class="about-img">
+          <img src="WhatsApp Image 2024-04-22 at 18.34.22_634ec80f.jpg" class="abt-res" style="height: 70%" 
+          />
+        </div> -->
+        <div class="about-text">
+          <h2>About <span>Me</span></h2>
+          <p>
+            I'm an electronics and communication engineering student fascinated
+            by the limitless possibilities of computer science. With a solid
+            background in engineering principles, I've immersed myself in data
+            structures, algorithms, web development, and database management
+            systems. I bring a unique blend of hardware expertise and software
+            skills, eager to tackle challenges and innovate in the tech
+            industry.<br />
+            <br />
+            <!-- <a
+              href="https://drive.google.com/file/d/18UQSFzY9kdABAWTxDMgy_uBmery6-2q_/view?usp=sharing"
+              style="--i: 11"
+              class="abtbtn-box"
+              target="_blank"
+              ></a
+            > -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Skills" style="background-color: var(--background-color)">
+      <h1 class="subtitle">My <span>Skills</span></h1>
+      <div class="sec">
+        <div class="container1">
+          <h1 class="heading1">Technical Skills</h1>
+          <div class="Technical-bars">
+            <div class="bar">
+              <i class="bx bxl-html5" style="color: #c9332e"></i>
+              <div class="info">
+                <span>HTML <span class="addhtml"></span></span>
+              </div>
+              <div class="progress-line html">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <i class="bx bxl-css3" style="color: #147bbc"></i>
+              <div class="info">
+                <span>CSS <span class="addcss"></span></span>
+              </div>
+              <div class="progress-line css">
+                <span></span>
+              </div>
+            </div>
+
+            <div class="bar">
+              <i class="bx bxl-javascript" style="color:yellow"></i>
+              <div class="info">
+                <span>Javascript <span class="addpy"></span></span>
+              </div>
+              <div class="progress-line python">
+                <span></span>
+              </div>
+            </div>
+
+            <!-- <div class="bar"><i class='bx bxl-java' style="color: #c95d2e;"></i>
+                            <div class="info">
+                                <span>Java <span class="addjava"></span></span>
+                            </div>
+                            <div class="progress-line java">
+                                <span></span>
+                            </div>
+                        </div> -->
+
+            <div class="bar">
+              <i class="bx bxl-c-plus-plus" style="color: #3db2fc"></i>
+              <div class="info">
+                <span>C/C++ <span class="addc"></span></span>
+              </div>
+              <div class="progress-line cpls">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container2">
+          <h1 class="heading1">Professional Skills</h1>
+          <div class="radial-bars">
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                <circle class="path path-1" cx="100" cy="80" r="80"></circle>
+              </svg>
+              <div class="percentage">60%</div>
+              <div class="text">Problem Solving</div>
+            </div>
+
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                <circle class="path path-2" cx="100" cy="80" r="80"></circle>
+              </svg>
+              <div class="percentage">70%</div>
+              <div class="text">Project management</div>
+            </div>
+
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                <circle class="path path-3" cx="100" cy="80" r="80"></circle>
+              </svg>
+              <div class="percentage">80%</div>
+              <div class="text">Communication</div>
+            </div>
+
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+              </svg>
+              <div class="percentage">90%</div>
+              <div class="text">Teamwork</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects">
+      <div id="portfolio" class="services">
+        <div class="main-text" id="serv">
+          <h2>My <span>Projects</span></h2>
+          <div class="serv-container">
+            <div class="row">
+              <img src="public\images\2606891_6158-removebg-preview (1).png" />
+             <a href="https://github.com/vasimali8/extension-project" target="_blank"> <div class="layer">
+              <h4 style="color: black;">YouTube Timestamp Marker</h4>
+              <p>  Browser extension for marking and navigating key video moments on YouTube. (click to view)
+              
+              </p>
+
+             
+            </div></a>
+            </div>
+
+            <div class="row">
+              <img src="public\images\codepen-icon-design-free-vector-removebg-preview.png" style="background-color:#18181B;"/>
+            <a href="https://codepenva.netlify.app/" target="_blank">
+              <div class="layer">
+                <h5>
+                  Codepen Clone </h5>
+                <p>
+                  Single-page app for seamless HTML, CSS, and JavaScript compilation with real-time code testing. (click to view)
+                 
+                </p>
+
+                <!-- <a href="#"
+                  ><i class="bx bxs-low-vision" style="color: aliceblue"></i
+                ></a> -->
+              </div>
+            </a>
+            </div>
+
+            <div class="row">
+              <img src="public\images\1037325-removebg-preview.png" alt="" style="background-color: whitesmoke;">
+            <a href="https://file-sharing-ab9l.onrender.com/" target="_blank">
+              <div class="layer">
+                <h5>FileShare</h5>
+                <p>
+                  Secure file sharing with authentication and password-protected uploads using Express.js, EJS, MongoDB, and Multer.(click to view)
+                </p>
+
+                <!-- <a href="#"
+                  ><i class="bx bx-desktop" style="color: aliceblue"></i
+                ></a> -->
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <span class="blur" id="blur2"></span>
+    <span class="blur" id="blur2"></span>
+    <section id="Services" style="background-color:  var(background-color)">
+      <div class="project">
+        <div class="container">
+<!--    
+          <h1 class="sub-title">My <span>Services</span></h1> -->
+          <div class="prj-list">
+            <div>
+             
+              <i class="bx bx-code" style="color: var(--primary-color)"></i>
+              <h2 style="border-bottom: 2px solid #147bbc;">Web Development</h2>
+              <p>
+                Plan, create and code internet sites and web pages with modern
+                and artful design.
+              </p>
+            </div>
+            <div>
+              <i class='bx bxs-data'style="color:var(--primary-color)"></i>
+              <h2 style="border-bottom: 2px solid #147bbc;">Database Management</h2>
+              <p>
+                Design, implement, and maintain robust and efficient databases to ensure secure and reliable data storage, retrieval, and manipulation.
+
+              </p>
+            </div>
+            <div>
+              <!-- <i class="bx bxl-brackets-curly" style="color: var(--primary-color)"></i> -->
+              <i class='bx bx-network-chart' style="color:var(--primary-color)"></i>
+
+              <h2 style="border-bottom: 2px solid #147bbc;">DSA</h2>
+              <p>
+                Implemented efficient solutions to various Data Structures and
+                Algorithms (DSA) problems, demonstrating strong problem-solving
+                skills and technical proficiency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts" id="Contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+
+        <div class="contact-list">
+          <li><i class="bx bxs-send"></i>saiyedvasimali1@gmail.com</li>
+          <li><i class="bx bxs-phone-call"></i>9023458533</li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://github.com/vsmidhun21" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+
+          <a href="https://www.linkedin.com/in/midhun-v-s" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="last-text"></div>
+    <a href="#Home" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="public/js/script.js"></script>
+  </body>
+</html>
